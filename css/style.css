@@ -1,10 +1,11 @@
 .da-thumbs {
 	list-style: none;
 	width: 984px;
-	height: 600px;
+	height: 390px;
 	position: relative;
-	margin: 20px auto;
+	margin: 20px 0px 20px -10px;
 	padding: 0;
+
 }
 .da-thumbs li {
 	float: left;
