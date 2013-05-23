@@ -1,99 +1,25 @@
-@charset "UTF-8";
-/* CSS Document */
-
-body {
-	background: url('../img/bedge_grunge.png');
-	font-family: 'Roboto', sans-serif;
-}
-
-.nav{
-	margin: 0 auto;
-	width: 800px;
-	border-bottom: 5px solid #DDD;;
-}
-
-.footer-nav{
-	margin: 0 auto;
-	width: 800px;
-	border-bottom: 5px solid #DDD;;
-}
-
-.nav li{
-	float: left;
-	text-align: center;
-	width: 33.33%;
-	text-transform: uppercase;
-}
-
-a {
-	color: #547C8C;
+#header {
+	border-bottom: solid 2px #ad1100;
 }
 
 
-#banner {
-	margin: 0 auto;
-	width: 800px;
-	height: 200px;
+#footer {
+	border-top: solid 2px #ad1100;
 }
 
-.page-header {
-	border-bottom: 4px solid #EEE;
-	margin: 0 auto;
-	width: 800px;
-}
-
-.content {
-	margin: 0 auto;
-	margin-top: 50px;
-	width: 800px;
-	overflow: none;
-}
-
-.nav li:last {
+#footer ul {
 	float: right;
+	list-style: none;
 }
 
-#myCarousel {
-	margin: 0 auto;
-	width: 400px;
+#footer ul li {
 	float: left;
-	overflow: none;
+	padding: 25px;
 }
 
-#quote {
-	margin-top: 60px;
-	color: #547C8C;
-	font-size: 2em;
-	float: left;
-	line-height: 25px;
-	border-left: none;
+#footer ul li a{
+	text-decoration: none;
 }
-
-#name {
-	color: #547C8C;
-}
-
-#logo {
-	margin-left: 10px;
-	float: left;
-}
-
-h4 {
-	text-align: justify;
-}
-
-#description {
-	width: 500;
-	margin: 50px 0px 50px 0px;
-}
-
-.thumbnail+gallery {
-	margin: 0px 100px;
-}
-
-
-
-
 
 
 
